@@ -19,6 +19,7 @@ body {
   display: absolute;
   top: 25px;
   right: 25px;
+  color: rgb(237,83,67);
 }
 
 h1{
@@ -31,6 +32,9 @@ h1{
 h2{
   margin: 15px 0;
   text-transform: uppercase;
+  text-align: center;
+  font-size: 50px;
+  color: rgb(237,83,67);
 }
 
 
@@ -60,6 +64,8 @@ p {
   height: 1024px;
 }
 
+
+
 .sections-hero{
   display: flex;
   flex-direction: column;
@@ -83,6 +89,7 @@ p {
   text-align: center;
 }
 
+
 .process-container{
   display: flex;
   justify-content: space-evenly;
@@ -93,6 +100,23 @@ p {
   height: 500px;
   background:rgb(249,249,249);
 
+}
+
+.process-container h3{
+  color: rgb(39, 101, 128)
+}
+.process-container p{
+  color: rgb(39, 101, 128)
+}
+
+.hero-container p{
+  color: rgb(39, 101, 128)
+}
+.hero-container option{
+  color: rgb(39, 101, 128)
+}
+.hero-container select{
+  color: rgb(39, 101, 128)
 }
 
 .process-card{
@@ -115,7 +139,6 @@ font-size: 15px;
 }
 
 .cta-container{
-  width: 250px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -134,7 +157,7 @@ font-size: 15px;
 }
 
 .cta-button{
-  background-color: red;
+  background-color: rgb(237,83,67);
   border-radius: 5px;
   color: white;
   text-decoration: none;
@@ -142,6 +165,8 @@ font-size: 15px;
   display:inline-block;
   text-transform: uppercase;
   text-align: center;
+  width: 450px;
+  font-size: 25px;
 }
 
 .estimate-box{
