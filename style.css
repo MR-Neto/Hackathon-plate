@@ -20,6 +20,9 @@ body {
   top: 25px;
   right: 25px;
   color: rgb(237,83,67);
+  background-color: rgb(251,252,253);
+  padding: 50px 0 0 50px;
+  margin: 0;xr
 }
 
 h1{
@@ -76,6 +79,13 @@ p {
   margin-right: 70px;
 }
 
+.sections-hero p{
+  width: 80%;
+}
+.estimate p{
+  text-align: center;
+}
+
 .cta-box{
   width: 500px;
   display: flex;
@@ -103,7 +113,8 @@ p {
 }
 
 .process-container h3{
-  color: rgb(39, 101, 128)
+  color: rgb(39, 101, 128);
+  font-size: 25px;
 }
 .process-container p{
   color: rgb(39, 101, 128)
@@ -181,7 +192,7 @@ font-size: 15px;
 
 .to{
   align-self: flex-end;
-  padding-left: 250px;
+  padding-left: 225px;
   font-size: 25px;
   font-family: 'Montserrat', sans-serif;
 
